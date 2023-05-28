@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #219ebc;
+    --secondary-color: #023047;
+    --accent1-color: #ffb703;
+    --accent2-color: #fb8500;
+
+    /* --heading-font: 'Knewave', cursive; */
+    --heading-font: 'Bangers', cursive;
+    --paragraph-font: 'Inter', sans-serif;
+
+    --nav-background-color: #023047;
+    --nav-link-color: #FFB703;
+    --nav-hover-link-color: #023047;
+    --nav-hover-background-color: #FFB703;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    letter-spacing: 1px;
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    letter-spacing: 2px;
+    position: absolute;
+    inset: 2rem 0 auto 0;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+    background-color: #023047a5;
+    /* opacity: 0.7; */
+}
+
+.hero article {
+    position: absolute;
+    inset: 12rem 4rem auto 4rem;
+    padding: 2rem;
+    color: white;
+    background-color: #023047cf;
+    clear: both;
+}
+
+.hero article p {
+    width: 65%;
+    color: white;
+    float: left;
+}
+
+.hero article img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    float: right;
+}
