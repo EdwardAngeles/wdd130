@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    margin-bottom: 1rem;
+}
+
 form {
     max-width: 520px;
     display: flex;
