@@ -317,7 +317,7 @@ section.form form .field.with-checkbok label {
     font-weight: normal;
 }
 
-section.form form .field label {
+label {
     font-weight: bold;
 }
 
@@ -334,6 +334,25 @@ textarea {
 
 input#name, input#email, select#purpose {
     height: 38px;
+}
+
+.purpose-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.purpose-option {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.purpose-label {
+    font-weight: normal;
+}
+
+.purpose-options input[type="radio"] {
+    display: inline-block;
 }
 
 section.form form button[type="submit"] {
